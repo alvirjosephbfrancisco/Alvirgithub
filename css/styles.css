@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+/*-------------- nav area -----------------*/
+#parentnav {
+    height: 100px;
+    width : 100%;
+    background-color:white;
+    position: relative;
+    z-index: 1;
+}
+
+.navouter {
+    height: 60px;
+    width : 100%;
+    background:white;
+    position: absolute;
+    z-index: 1;
+}
+.navinner {
+    height: 60px;
+    background:#033F63;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+.headernav {
+    width: auto;
+    background: transparent;
+    position: relative;
+    top: 20px;  
+    left: 5px;
+    display: flex;
+}
+
+.headernav h1 {
+    font-size: 20px;
+    width: 200px;
+    position: absolute;
+    bottom: 27px;
+}
+
+.navnav ul li {
+    background: transparent;
+    position: relative;
+    top:4px;
+    display:inline;
+    font-size: 15px;
+    
+}
+
+.navnav ul {
+    position: relative;
+    margin-right: 10px;
+}
+
+.navnav ul li a {
+color: white;
+margin: 0px 10px;
+}
+
+.headernav {
+    color:white;
+    margin-left: 40px;
+}
+   
+/*-------------- end ofnav area -----------------*/
+
+/*-------------- BIG PIC area -----------------*/
+#divheropic {
+    height: 450px;
+    background:white;
+    position: relative;
+    z-index: 1;
+}
+
+.classheropicout {
+    height: 600px;
+    width: 100%;
+    background:white;
+    position: absolute;
+    z-index: 12;
+}
+.classheropicin {
+   
+    height: 600px;
+    width: auto;
+    position: relative;
+    z-index: 20;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: orange;
+}
+
+/*-------------- end of BIG PIC area -----------------*/
+
+
+.imgdiv {
+height: 100%;
+width: 100%;
+position: absolute;
+}
+
+.imgtalaga {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+/*-------------- BOXES -----------------*/
+#divboxes {
+   height: 1000px;
+   width: 100%;
+    margin: 200px auto;
+    justify-content: center ;
+    position: relative;
+    display:flex ;
+    background-color: white;
+}
+
+#divboxes p{
+margin : 20px 20px;
+font-size: 20px;
+}
+
+
+
+#divboxes h1{
+
+    margin : 30px auto 0px auto;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+   
+    }
+     
+ 
+
+.box1  {
+    Height: 300px;
+    width: 400px;
+    background-color: grey;
+    position: relative;
+    
+   
+}
+
+.box2  {
+    Height: 300px;
+    width: 400px;
+    background-color:grey; ;
+    position: relative;
+    margin: 0px 100px;
+    
+   
+}
+
+.box3  {
+    Height: 300px;
+    
+    width: 400px;
+    background-color: grey;
+    position: relative;
+   
+    
+    
+}
+
+/*-------------- end of BOXES -----------------*/
+
+
+#bottom {
+    Height: 100px;
+    width: 100%;
+    
+    position: relative;
+    text-align: Center;
+}
+
+.house {
+Height: 600px;
+width: 100%;
+margin: 0px auto;
+max-width: 1600px;
+background-color: red;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    
+    #divboxes div {
+        display: block;
+    }
+
+    #divboxes {
+       
+
+         display:block ;
+        
+     }
+    
+    .box2 {
+        margin: 5px;
+    }
+
+    .box1, .box3 {
+        margin: 5px;
+    }
+
+    .box1, .box2, .box3{
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    #divboxes {
+    
+    margin: 200px auto;
+    position: relative;
+    justify-content: right;
+    
+    }
+}
+
