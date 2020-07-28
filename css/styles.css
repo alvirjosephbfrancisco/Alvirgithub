@@ -7,7 +7,7 @@ body {
 #parentnav {
     height: 100px;
     width : 100%;
-    background-color:white;
+    background-color:blue;
     position: relative;
     z-index: 1;
 }
@@ -33,11 +33,12 @@ body {
 
 .headernav {
     width: auto;
-    background: transparent;
+    background: red;
     position: relative;
     top: 20px;  
     left: 5px;
     display: flex;
+    z-index: 10;
 }
 
 .headernav h1 {
@@ -45,20 +46,30 @@ body {
     width: 200px;
     position: absolute;
     bottom: 27px;
+    background-color: red;
 }
 
+.navnav {
+    background-color: red;
+    position: relative;
+    justify-self: right;
+    width: auto;
+    display: inline-flex;
+}
 .navnav ul li {
     background: transparent;
     position: relative;
     top:4px;
-    display:inline;
+    display:inline-block;
     font-size: 15px;
+    background-color: red;
     
 }
 
 .navnav ul {
     position: relative;
     margin-right: 10px;
+    justify-self: right;
 }
 
 .navnav ul li a {
@@ -69,6 +80,13 @@ margin: 0px 10px;
 .headernav {
     color:white;
     margin-left: 40px;
+}
+
+.hamburgerclass {
+    position: relative;
+    background-color: blue;
+    display: block;
+    padding: 20px;
 }
    
 /*-------------- end ofnav area -----------------*/
